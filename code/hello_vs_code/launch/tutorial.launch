@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="hello_vs_code" type="vs_listener" name="vs_listener"/>
+    <node pkg="hello_vs_code" type="vs_talker" name="vs_talker"/>
+</launch>

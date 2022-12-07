@@ -1,0 +1,46 @@
+# Name of the workflow
+name: Check format
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# Create a workflow that is made of one or more jobs that can run sequentially or in parallel
+jobs:
+  #
+  format_check:
+    # Specifiy the environment the job needs to run in
+    runs-on: ubuntu-20.04
+
+    # Create one or more steps that need to be executed
+    steps:
+
+    # Define the name for one of the steps
+    - name: Checkout
+      # Get the github code repository
+      uses: actions/checkout@v2
+
+    # Check python code
+    - name: Python Formatter (Black)
+      uses: psf/black@stable
+
+    # Check python code
+    - name: Python setup
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.9
+    - name: Python check
+      run: |
+        python -m pip install --upgrade pip
+        pip install black
+        black .
+
+    # Check c++ code
+    - name: C++ Formatter (Clang-format)
+      uses: jidicula/clang-format-action@v4.9.0
+      with:
+        clang-format-version: '12' 
