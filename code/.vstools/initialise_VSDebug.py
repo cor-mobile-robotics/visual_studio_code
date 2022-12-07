@@ -3,6 +3,7 @@
 import json
 import os
 import shutil
+import subprocess
 from pathlib import Path
 
 # Retrieve the workspace folder
@@ -33,6 +34,22 @@ try:
     print("\n *Created folder src.")
 except Exception:
     print("\n !Don't have to create folder src, already existing.")
+
+# Create catkin workspace
+print("\n --- setting up Catkin workspace --- ")
+if catkin_make:
+    process = subprocess.Popen(
+        ["catkin_make"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+else:
+    process = subprocess.Popen(
+        ["catkin", "build"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+stdout, stderr = process.communicate()
 
 # Move all the needed files to the workspace from the cloned repository and remove clone
 try:
@@ -281,4 +298,6 @@ with open(".vscode/settings.json", "w") as jsonFile_settings:
     json.dump(settings_data, jsonFile_settings, indent=4)
     jsonFile_settings.close()
 
+
+print("\n\n Workspace is ready!")
 print("\n\n --- All done ---")
