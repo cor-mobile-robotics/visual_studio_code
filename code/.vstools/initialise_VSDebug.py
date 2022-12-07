@@ -52,10 +52,12 @@ while loop:
     if str_input == "y":
         try:
             shutil.move(
-                workspace_folder + "/code/beginner_tutorials", workspace_folder + "/src"
+                workspace_folder + "/visual_studio_code/code/beginner_tutorials",
+                workspace_folder + "/src",
             )
             shutil.move(
-                workspace_folder + "/code/hello_vs_code", workspace_folder + "/src"
+                workspace_folder + "/visual_studio_code/code/hello_vs_code",
+                workspace_folder + "/src",
             )
             print("\n *Moved both packages to the src folder.")
         except Exception:
