@@ -54,7 +54,9 @@ while loop:
             shutil.move(
                 workspace_folder + "/code/beginner_tutorials", workspace_folder + "/src"
             )
-            shutil.move(workspace_folder + "/code/hello_vs_code", workspace_folder + "/src")
+            shutil.move(
+                workspace_folder + "/code/hello_vs_code", workspace_folder + "/src"
+            )
             print("\n *Moved both packages to the src folder.")
         except Exception:
             print(
