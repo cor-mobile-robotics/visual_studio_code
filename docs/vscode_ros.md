@@ -81,9 +81,11 @@ press Ctrl+Shift+P -->> Format Document With... -->> Configure Default Formatter
 ```
 The format for clang tools is defined in the .clang-format file and is automatically used by the settings.json file created in previous step.
 
-Note: The formatter is recommended for a repository that maintains a certain standart between contributors. 
+| :exclamation: Note: The formatter is recommended for a repository that maintains a certain standart between contributors. |
+|----------------------|
 
-| WARNING: If the formatter is not used from the beginning of a repository, it could change files in a way that pull requests can become huge. Make sure that you know this beforehand. |
+| :warning: WARNING: If the formatter is not used from the beginning of a repository, it could change files in a way that pull requests can become huge. Make sure that you know this beforehand. |
+|----------------------|
 
 
 ## 4) Automation of the VS workspace
@@ -160,7 +162,7 @@ Now run both scripts as done in previous section and see how the code stops at t
 
    
 
-| Important! |
+| :exclamation: Important! |
 | --- |
 | - You will see that the subscriber doesnt receive the first or first few messages. This is due to the setup of the architecture of ROS. The publisher is already publishing messages when the connections are not yet initialized, and thus are lost. To have zero loss, set a ros rate sleeper (of around 5 seconds) after setting up the publisher note and always first start the subscriber nodes. This will make sure that all messages are received by the subscribers. |
 | - Another thing, you will notice with the tutorial nodes that sometimes the breakpoint of the publisher is hit twice before the breakpoint in the subscriber is hit. This is due to the speed until the next breakpoint, the publisher was faster in hitting the next breakpoint than the subscriber was in receiving the message and hitting it's breakpoint. |
