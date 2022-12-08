@@ -1,8 +1,8 @@
 # Automation In Visual Studio Code With ROS
 
-This repository contains two important python scripts that automate your ROS workflow in the Visual Studio Code IDE. Below is a step by step guide on how to setup the VS environment and work with this environment. 
+This repository contains two important python scripts that automate your ROS workflow in the Visual Studio Code IDE. Below is a step by step guide on how to setup the VS environment and work with this module. 
 
-Note: The assumption is made that you know how ROS works and that it is installed. Also Visual Studio Code should be installed.
+Note: The assumption is made that you know how ROS works and that it is installed. Visual Studio Code should also be installed.
 
 
 ## Contents:
@@ -16,7 +16,7 @@ Note: The assumption is made that you know how ROS works and that it is installe
 
 ## 1) Visual Studio Code Extensions
 
-The following extensions are recommended:
+The following extensions are used in this module:
 - C/C++ (C/C++ IntelliSense, debugging, and code browsing.)
 - Python (IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code formatting, refactoring, unit tests, and more.)
 - ROS (Develop Robot Operating System (ROS) with Visual Studio Code.)
@@ -87,6 +87,8 @@ Note: The formatter is recommended for a repository that maintains a certain sta
 
 
 ## 4) Automation of the VS workspace
+
+| WARNING: If something is not working and gives out an error, restart VS code. This will let VS code checkout the workspace again so it finds catkin. |
 
 Now everything is ready and we can start using the settings we made. From the command palette, a few tasks can be used that where previously made by the python file. To use these tasks:
 ```
