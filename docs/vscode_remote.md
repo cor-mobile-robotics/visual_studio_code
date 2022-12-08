@@ -29,7 +29,8 @@ The following extensions are used in this module:
 
 ## 2) Using SSH
 
-| If you already know how to work with SSH and you have a public key typically located at `~/.ssh/id_{encryption name}.pub`, you can skip this section. |
+| :exclamation: If you already know how to work with SSH and you have a public key typically located at `~/.ssh/id_{encryption name}.pub`, you can skip this section. |
+|------|
 
 Install a supported SSH client if you do not get information how to use ssh if you type in the terminal,
 ```
@@ -46,7 +47,8 @@ ssh-keygen -t rsa -b 4096
 ```
 This will typically be stored in the location `~/.ssh/id_rsa.pub`.
 
-| WARNING: Never send the private key  `~/.ssh/id_rsa` |
+| :warning: WARNING: Never send the private key  `~/.ssh/id_rsa` |
+|---------|
 
 
 
@@ -98,6 +100,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub username@192.100.100.10
 ```
 
 | :warning: Note: You can always check which keys are stored on the machine by going to `~/.ssh/authorized_keys`, if there is a key that you don't know then remove it. Since this will give acces to the device without password.|
+|--------|
 
 
 
