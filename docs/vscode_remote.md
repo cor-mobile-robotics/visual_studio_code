@@ -97,7 +97,7 @@ A lot of times you have to supply the password of the remote machine. Now to avo
 ssh-copy-id -i ~/.ssh/id_rsa.pub username@192.100.100.10
 ```
 
-| Note: You can always check which keys are stored on the machine by going to `~/.ssh/authorized_keys`, if there is a key that you don't know then remove it. Since this will give acces to the device without password.|
+| :warning: Note: You can always check which keys are stored on the machine by going to `~/.ssh/authorized_keys`, if there is a key that you don't know then remove it. Since this will give acces to the device without password.|
 
 
 

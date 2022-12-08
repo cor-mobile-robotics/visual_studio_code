@@ -9,5 +9,5 @@ This repository is made with the intension to increase productivity while using 
 
 TODO[1. Tips to increase development](docs/vscode_tips.md)  
 [2. Working with Robotic Operating System ](docs/vscode_ros.md)  
-TODO[3. Remote development using SSH](docs/vscode_remote.md)  
+[3. Remote development using SSH](docs/vscode_remote.md)  
 TODO[4. Development inside Docker containers](docs/vscode_docker.md)  
