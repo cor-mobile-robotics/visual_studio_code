@@ -12,7 +12,7 @@ Note: The assumption is made that you know how ROS works and that it is installe
 * [4. Automation of the VS workspace](#4-automation-of-the-vs-workspace)
 * [5. Debugging your code in VS with ROS](#5-debugging-your-code-in-vs-with-ros)
 * [6. Hints to increase development speed](#6-hints-to-increase-development-speed)
-* [7. Explanation of the .json files](#7-explanation-of-the-.json-files)
+* [7. Explanation of the .json files](#7-explanation-of-the-json-files)
 
 ## 1) Visual Studio Code Extensions
 
@@ -201,7 +201,7 @@ Now you will have to VS code windows, both with the same VS code workspace. Now 
 ![Alt-text-1](images/two_screens.png?raw=true "Use of two VS code windows")
 
 
-## 7) Explanation of the .json files
+## 7) Explanation of the json files
 
 Below an explanation of each of the files.
 
