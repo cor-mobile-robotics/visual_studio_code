@@ -1,6 +1,7 @@
 [![format_check](https://github.com/R2CLab/visual_studio_code/actions/workflows/formatter.yml/badge.svg)](https://github.com/R2CLab/visual_studio_code/actions/workflows/formatter.yml)
 [![link_check](https://github.com/R2CLab/visual_studio_code/actions/workflows/link_checker.yml/badge.svg)](https://github.com/R2CLab/visual_studio_code/actions/workflows/link_checker.yml)
 
+
 # Visual Studio Code
 
 This repository is made with the intension to increase productivity while using Visual Studio Code. It contains modules that can be used solely or added together. Each have there own section to explain what the module is all about and how it can improve your development environment. 
