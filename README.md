@@ -1,5 +1,9 @@
+<!-- markdown-link-check-disable -->
+
 [![format_check](https://github.com/R2CLab/visual_studio_code/actions/workflows/formatter.yml/badge.svg)](https://github.com/R2CLab/visual_studio_code/actions/workflows/formatter.yml)
 [![link_check](https://github.com/R2CLab/visual_studio_code/actions/workflows/link_checker.yml/badge.svg)](https://github.com/R2CLab/visual_studio_code/actions/workflows/link_checker.yml)
+
+<!-- markdown-link-check-enable -->
 
 
 # Visual Studio Code
