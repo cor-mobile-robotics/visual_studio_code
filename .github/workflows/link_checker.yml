@@ -12,6 +12,6 @@ jobs:
 
     # Checks the status of hyperlinks in .md files in verbose mode
     - name: Check links
-      uses: gaurav-nelson/github-action-markdown-link-check@v1.0.14
+      uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
       with:
         use-verbose-mode: 'yes'
