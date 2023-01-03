@@ -1,4 +1,5 @@
 [![format_check](https://github.com/thijs83/Visual_Studio_Code_ROS/actions/workflows/formatter.yml/badge.svg)](https://github.com/thijs83/Visual_Studio_Code_ROS/actions/workflows/formatter.yml)
+[![link_check](https://github.com/thijs83/Visual_Studio_Code_ROS/actions/workflows/link_checker.yml/badge.svg)](https://github.com/thijs83/Visual_Studio_Code_ROS/actions/workflows/link_checker.yml)
 
 # Visual Studio Code
 
