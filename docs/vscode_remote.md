@@ -104,7 +104,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub username@192.100.100.10
 
 # Checkout one of the other Modules
 
-[1. Tips to increase development](vscode_tips.md)  
-[2. Working with Robotic Operating System ](vscode_ros.md)  
-[3. Remote development using SSH](vscode_remote.md)  
-[4. Development inside Docker containers](vscode_docker.md) 
+[1. Working with Robotic Operating System ](vscode_ros.md)  
+[2. Remote development using SSH](vscode_remote.md)  
+[3. Development inside Docker containers](vscode_docker.md) 
+[4. Tips to increase development](vscode_tips.md) 
