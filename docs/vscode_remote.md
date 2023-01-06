@@ -7,11 +7,6 @@ This tutorial shows how you can connect Visual Studio Code to a remote machine a
  - Visualize all available containers and start them on the remote machine.
  - Connect to these containers, which pops-up a new window.
 
-To show the advantages, I will first go over a few extensions that need to be installed in VS code and then some settings. Finally I will show some of the implementations above.
-
-For working with ROS and VS code: [2. Working with Robotic Operating System ](vscode_ros.md)
-For working with Docker and VS code: [4. Development inside Docker containers](vscode_docker.md)
-
 ## Contents:
 * [1. Visual Studio Code Extensions](#1-visual-studio-code-extensions)
 * [2. Using SSH](#2-using-ssh)

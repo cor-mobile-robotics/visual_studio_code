@@ -2,7 +2,7 @@
 
 This repository contains two important python scripts that automate your ROS workflow in the Visual Studio Code IDE. Below is a step by step guide on how to setup the VS environment and work with this module. 
 
-Note: The assumption is made that you know how ROS works and that it is installed. Visual Studio Code should also be installed.
+>Note: The assumption is made that you know how ROS works and that it is installed. Visual Studio Code should also be installed.
 
 
 ## Contents:
