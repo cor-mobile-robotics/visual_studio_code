@@ -32,7 +32,7 @@ We will setup the workspace automatically by running one of the python scripts. 
 ```bash
  mkdir ~/catkin_ws
  cd ~/catkin_ws
- git clone https://github.com/R2CLab/visual_studio_code.git
+ git clone git@github.com:R2CLab/visual_studio_code.git
  mv -v visual_studio_code/code/.vstools .
  python3 .vstools/initialise_VSDebug.py
 ```
